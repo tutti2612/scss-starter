@@ -1,0 +1,20 @@
+@import "variables";
+@import "mixin";
+
+@import "sp";
+
+@media (min-width: 520px) {
+  @import "tb";
+}
+
+@media (min-width: 960px) {
+  @import "pc";
+}
+
+@media (min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2) {
+  @import "2x";
+}
+
+@media print {
+  @import "print";
+}
